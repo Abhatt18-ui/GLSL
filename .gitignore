@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+node_modules/
+build/
+dist/
+temp/
+examples/
+test/
+docs/
+
+# macOS specific files
+.DS_Store
+
+# Visual Studio Code specific files
+.vscode/
+
+# WebStorm specific files
+.idea/
+
+# Other build and configuration files
+*.log
+*.bak
+*.tmp
+*.lock
+*.swp
+*.orig
+*.map
+*.json
+*.yml
+*.config.js
+
+# Environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Compiled JavaScript files (if you use a build process)
+*.js
+
+# Compiled CSS files (if you use a build process)
+*.css
+
+# Compiled HTML files (if you use a build process)
+*.html
+
+# Compiled image files (if you use a build process)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Compiled font files (if you use a build process)
+*.woff
+*.woff2
+*.eot
+*.ttf
+*.otf
+
+# Logs
+log/
+logs/
